@@ -44,3 +44,14 @@
 ## ¿Qué hace este módulo?
 
 Este módulo de kernel es un ejemplo básico que, al ser cargado, permite controlar el mouse, escribiendo en /proc/vmouse_control el dx y dy en formato dos enteros separados por un espacio, ej: "10 10"
+
+## NOTA
+Si el modulo se ejecuta en una maquina virtual es posible que el sistema anfitrion tome el control del mouse por motivos de usabilidad.
+Para VMware es posible deshabilitar este comportamiento cambiendo los siguientes ajustes:
+
+
+En el archivo .vmx de la maquina virtual agrega esta linea al final:
+```vmmouse.present = "FALSE"```
+
+En la configuracion de Vmware asegurate que desmarcar la opcion "hide cursor on ungrab" o será dificil ver los movimientos del mouse
+![alt text](image.png)
