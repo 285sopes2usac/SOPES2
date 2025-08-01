@@ -1,13 +1,13 @@
 # Compilación de un Kernel de Linux
 ## 0. Sistema Operativo
-[Descarga de Linux Mint 22.1.1](https://drive.google.com/file/d/1QuUa95Gd_oluIkvP6Xnc7xU1Y246MP4A/view?usp=sharing)
+[Descarga de Linux Mint 22.1](https://drive.google.com/file/d/1QuUa95Gd_oluIkvP6Xnc7xU1Y246MP4A/view?usp=sharing)
 
 ## 1. Extraer el código fuente del kernel  
-[Descargar Kernel de Linux](https://www.kernel.org) (Descargar version longterm 6.12.39)
+[Descargar Kernel de Linux](https://www.kernel.org) (Descargar version longterm 6.12.40)
 
 Extrae el código fuente del kernel de Linux:
 ```sh
-tar -xvf linux-6.12.31.tar.xz
+tar -xvf linux-6.12.40.tar.xz
 ```
 
 ## 2. Instalar dependencias necesarias  
