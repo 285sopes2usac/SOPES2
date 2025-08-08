@@ -432,4 +432,13 @@
 # This is the end of the legacy x32 range.  Numbers 548 and above are
 # not special and are not to be used for x32-specific syscalls.
 
-548 common usac_hello sys_usac_hello
+#
+# Primer valor numerico es el id de la funcion 
+# Segundo valor es el tipo de ABI, puede ser: 
+#  common: x86_64 y x32
+#  64: solo para x86_64
+#  x32: solo para x32
+# Tercer valor es el nombre formal de la funcion usado en SYSCALL_DEFINEX(>nombre<)
+# Cuarto valor es el nombre del simbolo que se le dará a la syscall en el codigo generado por el macro SYSCALL_DEFINEX
+# la funcion de la implementacion debe llevar este nombre con el prefijo __x64_ si se crea manualmente
+548 common  usac_hello  sys_usac_hello
