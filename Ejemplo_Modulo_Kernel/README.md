@@ -60,4 +60,7 @@ En el archivo .vmx de la maquina virtual agrega esta linea al final:
 ```vmmouse.present = "FALSE"```
 
 En la configuracion de Vmware asegurate que desmarcar la opcion "hide cursor on ungrab" o será dificil ver los movimientos del mouse
+
+<img width="674" height="263" alt="image" src="https://github.com/user-attachments/assets/2364f115-49f5-48cb-93c5-c2a1d1ebdf55" />
+
 ![alt text](image.png)
